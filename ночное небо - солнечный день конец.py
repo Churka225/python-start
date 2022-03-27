@@ -1,0 +1,27 @@
+def setup():
+    size(800,600)
+    background(0)
+def draw():
+    noStroke()
+    fill(255)
+    ellipse(random(0,800), random(0,600), random(1,5), random(1,5))
+    if mouseButton == LEFT:
+        background(0)
+        fill(223,224,222)
+        ellipse(790,20,100,100)
+    if mouseButton == RIGHT:
+        noLoop()
+        background(29,146,240)
+        fill(236,237,14)
+        ellipse(790,20,100,100)
+        fill(200)
+        ellipse(20,73,95,95)
+        ellipse(88,65,100,100)
+        ellipse(170,74,95,95)
+        rect(20,50,170,68)
+        ellipse(270,73,95,95)
+        ellipse(330,65,100,100)
+        ellipse(390,73,95,95)
+        ellipse(490,73,95,95)
+        ellipse(550,65,100,100)
+        ellipse(613,73,95,95)
