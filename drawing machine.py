@@ -12,12 +12,12 @@ def draw():
             background(255)
     fill(255,3,3)
     rect(10,10,160,100)
-    def mouseClicked():
+    if mouseButton == CENTER:
         if mouseX >= 10 and mouseX <= 170 and mouseY >= 10 and mouseY <= 110:
             stroke(255,3,3)
     fill(83,14,203)
     rect(180,10,160,100)
-    if mousePressed == True: 
+    if mouseButton == RIGHT: 
         if mouseX >= 180 and mouseX <= 340 and mouseY >= 10 and mouseY <= 110:
             strokeWeight(3)
     fill(6,152,22)
